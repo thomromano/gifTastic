@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Music GIFs</title>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>HEADING GOES HERE</h1>
+        <div> <h1>Music GIFs</h1>
         <br>
         <br>
-        <div id="music-buttons"></div>
+        <div id="music-buttons">
+
+                <button class="btn btn-info music" data-name="Beyonce" style="margin: 5px;">Beyonce</button>
+                <button class="btn btn-info music" data-name="Nirvana" style="margin: 5px;">Nirvana</button>
+                <button class="btn btn-info music" data-name="Britney Spears" style="margin: 5px;">Britney Spears</button>
+                <button class="btn btn-info music" data-name="Beatles" style="margin: 5px;">Beatles</button>
+                <button class="btn btn-info music" data-name="Mariah Carey" style="margin: 5px;">Mariah Carey</button>
+                <button class="btn btn-info music" data-name="Green Day" style="margin: 5px;">Green Day</button>
+                <button class="btn btn-info music" data-name="Prince" style="margin: 5px;">Prince</button>
+                <button class="btn btn-info music" data-name="Taylor Swift" style="margin: 5px;">Taylor Swift</button>
+                <button class="btn btn-info music" data-name="Spice Girls" style="margin: 5px;">Spice Girls</button>
+        </div>
+    </div>
+       
         <form id="music-form">
             <label id="add" for="music-input">Enter a Singer/Musical Group</label>
             <input type="text" class="form-control" id="music-input">
 
         </form>
+        <br>
         <button onclick="submitButton()" type="button" id="add-music" class="btn btn-success">Submit</button>
         <div id="musicians"</div>
 
