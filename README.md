@@ -1,17 +1,17 @@
 # gifTastic
 
-##Overview
+## Overview
 ---
 Project utilizing the GIPHY API
 
-##Issues
+## Issues
 ---
-+Path to results is not rendering
-+Cannot add music-buttons
-+NOT FUNCTIONING SITE
++ Path to results is not rendering
++ Cannot add music-buttons
++ NOT FUNCTIONING SITE
 
-##To-Do
+## To-Do
 ---
-+re-map .js
-+Fix api/ajax functions
-+Add styling
++ re-map .js
++ Fix api/ajax functions
++ Add styling
